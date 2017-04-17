@@ -7,7 +7,7 @@ AFBlurSegue is a UIStoryboardSegue custom implementation that will blur the back
 
 ![alt text](https://raw.github.com/AlvaroFranco/AFBlurSegue/master/img/preview.gif "Preview")
 
-##Installation
+## Installation
 
 ![alt text](https://raw.github.com/AlvaroFranco/AFBlurSegue/master/img/download.gif "Download")
 
@@ -22,7 +22,7 @@ If you're not, import these files to your project:
 	UIImage+ImageEffects.h
 	UIImage+ImageEffects.h
 
-##Usage
+## Usage
 
 Since it's a Storyboard Segue custom implementation, you can start using it right from Storyboard. If you have your segue already created, just change it to Custom and the set AFBlurSegue as segue class.
 
@@ -58,12 +58,12 @@ For customizing it, let's use ```-prepareForSegue:sender:```
 **I highly recommend using *UIModalTransitionStyleCrossDissolve* or *UIModalTransitionCoverVertical* for better results. These animations looks really great with the blur effect.**
 
 
-##Blur method
+## Blur method
 
 Since there's no public API already for blur effect, we have to find some workarounds. A lot of blurring classes are currently using the famous UIToolbar hack. Since UIToolbar have native blur, you can change its size and use it as a blur container. AFBlurSegue uses the UIImage+ImageEffects class provided by Apple.
 
-##License
+## License
 AFBlurSegue is under MIT license so feel free to use it!
 
-##Author
+## Author
 Made by Alvaro Franco. If you have any question, feel free to drop me a line at [alvarofrancoayala@gmail.com](mailto:alvarofrancoayala@gmail.com)
